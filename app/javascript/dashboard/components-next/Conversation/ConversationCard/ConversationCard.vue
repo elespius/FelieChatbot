@@ -75,7 +75,7 @@ const showMessagePreviewWithoutMeta = computed(() => {
         <div class="flex items-center gap-2">
           <CardPriorityIcon :priority="conversation.priority || null" />
           <div
-            v-tooltip.top-start="inboxName"
+            v-tooltip.left="inboxName"
             class="flex items-center justify-center flex-shrink-0 rounded-full bg-n-alpha-2 size-5"
           >
             <Icon
